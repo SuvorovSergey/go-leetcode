@@ -14,6 +14,10 @@ import (
 
 type ListNode = structures.ListNode
 
+/**
+	Runtime: 16 ms, faster than 40.56% of Go online submissions for Add Two Numbers.
+	Memory Usage: 4.6 MB, less than 38.94% of Go online submissions for Add Two Numbers.
+*/
 func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	list := &ListNode{}
 	n1 := 0
