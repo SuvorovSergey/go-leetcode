@@ -1,10 +1,10 @@
-package leetcode_test
+package twosum_test
 
 import (
 	"reflect"
 	"testing"
 
-	leetcode "github.com/SuvorovSergey/go-leetcode/leetcode/0001.Two-Sum"
+	twosum "github.com/SuvorovSergey/go-leetcode/0001.Two-Sum"
 )
 
 func TestTwoSum(t *testing.T) {
@@ -40,7 +40,7 @@ func TestTwoSum(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			res := leetcode.TwoSum(tt.args.nums, tt.args.target)
+			res := twosum.TwoSum(tt.args.nums, tt.args.target)
 			if !reflect.DeepEqual(tt.expected, res) {
 				t.Errorf("twoSum() = %v, expected %v", res, tt.expected)
 			}

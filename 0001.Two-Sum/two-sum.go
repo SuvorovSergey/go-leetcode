@@ -1,4 +1,4 @@
-package leetcode
+package twosum
 
 // Complecity O(n)
 // Runtime: 14 ms, faster than 42.80% of Go online submissions for Two Sum.
